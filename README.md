@@ -1,7 +1,7 @@
 <br/>
 
 <div align="center">
-  <img src="img/Logo-DECOdificador-01.png" alt="Logo DE-COdificador" width="500"/>
+  <img src="/img/Logo-DECOdificador-01.png" alt="Logo DE-COdificador" width="500"/>
 </div>
 
 <br/>
