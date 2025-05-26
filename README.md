@@ -105,7 +105,8 @@ Este proyecto demuestra la relevancia y aplicación de herramientas seguras en l
 ## 🧑‍💻 Autores
 
 * **ARGANDOÑA Nahuel** 
-* **AUZQUI Sofia** 
+* **AUZQUI Sofia**
+* **CANE Gatón**
 * **HEREDIA Eric** 
 
 <br/>
