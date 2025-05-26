@@ -10,22 +10,24 @@
     <div class="container">
         <div class="header">
             <img src="/img/Logo-DECOdificador-01.png" alt="Logo DE-COdificador" class="logo">
-        </div>
+            <h1>DE-CO-dificador de Mensajes</h1> </div>
 
         <div class="input-section">
             <label for="message-input">Ingresa el mensaje:</label>
             <textarea id="message-input" rows="10" placeholder="Escribe aquí el texto a codificar o el binario a decodificar..."></textarea>
-        </div>
-
-        <div class="buttons-section">
-            <button id="encode-btn" class="btn primary">Codificar</button>
-            <button id="decode-btn" class="btn primary">Decodificar</button>
-            <button id="clear-btn" class="btn secondary">Limpiar</button>
+            <div class="buttons-input-section">
+                <button id="encode-btn" class="btn primary">Codificar</button>
+                <button id="decode-btn" class="btn primary">Decodificar</button>
+            </div>
         </div>
 
         <div class="output-section">
             <label for="result-output">Resultado:</label>
             <textarea id="result-output" rows="10" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+            <div class="buttons-output-section">
+                <button id="copy-btn" class="btn secondary">Copiar</button>
+                <button id="clear-btn" class="btn tertiary">Limpiar</button>
+            </div>
         </div>
     </div>
 
