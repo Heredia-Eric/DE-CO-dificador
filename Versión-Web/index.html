@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DE-CO-dificador de Mensajes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/img/Logo-DECOdificador-01.png" alt="Logo DE-COdificador" class="logo">
+            <h1>DE-CO-dificador de Mensajes</h1>
+        </div>
+
+        <div class="input-section">
+            <label for="message-input">Ingresa el mensaje:</label>
+            <textarea id="message-input" rows="10" placeholder="Escribe aquí el texto a codificar o el binario a decodificar..."></textarea>
+        </div>
+
+        <div class="buttons-section">
+            <button id="encode-btn" class="btn primary">Codificar</button>
+            <button id="decode-btn" class="btn primary">Decodificar</button>
+            <button id="clear-btn" class="btn secondary">Limpiar</button>
+        </div>
+
+        <div class="output-section">
+            <label for="result-output">Resultado:</label>
+            <textarea id="result-output" rows="10" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
